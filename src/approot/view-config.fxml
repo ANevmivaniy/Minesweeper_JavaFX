@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+
+
+<BorderPane fx:controller="approot.Controller" xmlns:fx= "http://javafx.com/fxml">
+    <center>
+        <GridPane fx:id="gridPane" prefHeight="200" prefWidth="250" gridLinesVisible="true"
+                 alignment="center" >
+        </GridPane>
+    </center>
+    <top>
+        <Label fx:id="label"  text="Welcome!" textAlignment="CENTER" />
+    </top>
+</BorderPane>
