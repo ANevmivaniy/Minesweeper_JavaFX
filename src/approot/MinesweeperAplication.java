@@ -14,7 +14,7 @@ public class MinesweeperAplication extends Application {
         Parent root = loader.load();
         Controller con = loader.getController();
         con.initPane();
-        primaryStage.setTitle("Sweeper_JavaFX");
+        primaryStage.setTitle("Minesweeper_JavaFX");
         primaryStage.setScene(new Scene(root));
         primaryStage.setResizable(true);
         primaryStage.show();
